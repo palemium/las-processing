@@ -1,0 +1,13 @@
+# LAS file processing
+
+Extract curves log data from a given LAS file and output raw values or normilized values to `results.csv`
+
+Example:
+
+`./script.rb filename.las DEPT ZS1,ZS2,ZS3,ZS4,ZS5,ZS6,ZS7,ZS8,ZS9,ZS10,ZS11,ZS12,ZS13,ZS14,ZS15,ZS16,ZS17,ZS18,ZS19,ZS20,ZS21,ZS22,ZS23,ZS24,ZS25,ZS26,ZS27,ZS28,ZS29,ZS30,ZS31,ZS32,ZS33,ZS34,ZS35,ZS36,ZS37,ZS38,ZS39,ZS40,ZS41,ZS42,ZS43,ZS44,ZS45,ZS46,ZS47,ZS48,ZS49,ZS50,ZS51,ZS52,ZS53,ZS54,ZL1,ZL2,ZL3,ZL4,ZL5,ZL6,ZL7,ZL8,ZL9,ZL10,ZL11,ZL12,ZL13,ZL14,ZL15,ZL16,ZL17,ZL18,ZL19,ZL20,ZL21,ZL22,ZL23,ZL24,ZL25,ZL26,ZL27,ZL28,ZL29,ZL30,ZL31,ZL32,ZL33,ZL34,ZL35,ZL36,ZL37,ZL38,ZL39,ZL40,ZL41,ZL42,ZL43,ZL44,ZL45,ZL46,ZL47,ZL48,ZL49,ZL50,ZL51,ZL52,ZL53,ZL54 1`
+
+In this example:
+
+`DEPT` curve values are written to csv without normalization.
+
+`ZS1`..`ZS54` and `ZL1`..`ZL54` curves values normalized to `0.0` .. `1.0` interval using each curve max and min values.
