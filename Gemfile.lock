@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    las_reader (0.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  las_reader
+
+BUNDLED WITH
+   1.15.3
